@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfig2
+  m_EditorClassIdentifier: 
+  _clientAccessToken: BDUTDUES2V3R4T4ITX5FX2CQWIZO24I2
+  _appInfo:
+    name: licenta_1
+    id: 991002769010539
+    lang: en
+    isPrivate: 1
+    createdAt: 2023-06-19T15:51:17-0700
+    trainingStatus: 1
+    lastTrainDuration: 52
+    lastTrainedAt: 2023-06-23T14:06:15-0700
+    nextTrainAt: 2023-06-23T14:05:23-0700
+    intents:
+    - id: 587103600197235
+      name: change_op_mode
+      entities:
+      - name: mode:mode
+        id: 1642877032802749
+      - name: op:op
+        id: 290091530134768
+    - id: 3000542110081195
+      name: hide_camera
+      entities:
+      - name: mode:mode
+        id: 1642877032802749
+      - name: transducer:transducer
+        id: 925081868716409
+    - id: 1711865945920602
+      name: hide_sensors
+      entities:
+      - name: level:level
+        id: 777412097161924
+      - name: mode:mode
+        id: 1642877032802749
+      - name: transducer:transducer
+        id: 925081868716409
+    - id: 646736927357194
+      name: show_camera
+      entities:
+      - name: mode:mode
+        id: 1642877032802749
+      - name: transducer:transducer
+        id: 925081868716409
+    - id: 1010383689954293
+      name: show_sensors
+      entities:
+      - name: level:level
+        id: 777412097161924
+      - name: mode:mode
+        id: 1642877032802749
+      - name: transducer:transducer
+        id: 925081868716409
+    entities:
+    - name: level
+      id: 2261773364210687
+      lookups:
+      - keywords
+      roles:
+      - name: level
+        id: 777412097161924
+      keywords:
+      - keyword: lower
+        synonyms:
+        - bottom
+        - lower
+      - keyword: upper
+        synonyms:
+        - top
+        - upper
+    - name: mode
+      id: 223844353301289
+      lookups:
+      - keywords
+      roles:
+      - name: mode
+        id: 1642877032802749
+      keywords:
+      - keyword: Activate
+        synonyms:
+        - activate
+      - keyword: hide
+        synonyms:
+        - deactivate
+        - disable
+        - don't show
+        - hi
+        - hi hi
+        - hi to
+        - hide
+        - invisible
+        - not visible
+        - remove
+        - transparent
+      - keyword: show
+        synonyms:
+        - a short
+        - activate
+        - add
+        - enable
+        - short
+        - show
+        - visible
+    - name: op
+      id: 3459655424299085
+      lookups:
+      - keywords
+      roles:
+      - name: op
+        id: 290091530134768
+      keywords:
+      - keyword: normal
+        synonyms:
+        - first
+        - normal
+      - keyword: triangular
+        synonyms:
+        - second
+        - secondary
+        - triangular
+    - name: transducer
+      id: 815337826853570
+      lookups:
+      - keywords
+      roles:
+      - name: transducer
+        id: 925081868716409
+      keywords:
+      - keyword: camera
+        synonyms:
+        - camera
+      - keyword: sensors
+        synonyms:
+        - sensors
+        - status
+    traits: []
+    voices:
+    - name: Cael
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cam
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Carl
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cody
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Connor
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Railey
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Remi
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rubie
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Colin
+      locale: en_CA
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rosie
+      locale: en_CA
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    composer:
+      canvases: []
+  _configurationId: 23071558-76ee-4af4-a8b4-a5f15d9331c5
+  timeoutMS: 10000
+  endpointConfiguration:
+    _uriScheme: 
+    _authority: 
+    _port: 0
+    _witApiVersion: 
+    _message: 
+    _speech: 
+    _dictation: 
+    _synthesize: 
+    _event: 
+    _converse: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-a25b1d31-811e-410c-8957-aa435fbac529.json
+  excludedAssemblies:
+  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  relaxedResolution: 0
